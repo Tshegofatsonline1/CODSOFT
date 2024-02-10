@@ -1,0 +1,102 @@
+:root {
+
+    --color1: turquoise;
+ }
+ 
+ 
+ 
+ body {
+    background-image: url("/images/6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    
+ }
+
+
+.nav-links li {
+    display: inline-block; 
+    color: var(--color1);
+    
+}
+
+.nav-links li:hover {
+    color: blueviolet;
+}
+.name {
+    color: white;
+}
+
+.page {
+    color: white;
+}
+
+.nav-bar {
+    background-color: black;
+    opacity: 0.7;
+    padding: 10px;
+}
+
+.quote {
+    background-color:  var(--color1);
+    opacity: 0.7;
+    width: fit-content;
+    margin: auto;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.banner  {
+    background-image: url("/images/8.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    
+    
+}
+
+.slider {
+
+    background-color: var(--color1);
+    opacity: 0.6;
+    width: fit-content;
+    margin: auto;
+    padding: 20px;
+    bottom: 0;
+    margin-top: 800px;
+}
+
+.bio {
+    background-color: var(--color1);
+    opacity: 0.7;
+    width: fit-content;
+    padding: 50px;
+    margin: auto;
+}
+
+button {
+
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px rgba(0,0,0, 0.2);
+}
+
+
+/** BIOGRAPHY PAGE */
+
+#bio-container {
+    background-color: white;
+}
+
+.description {
+    background-color: var(--color1);
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+    opacity: 0.6;
+}
+
+span {
+
+    font-weight: bold;
+}
