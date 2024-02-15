@@ -1,12 +1,13 @@
 :root {
 
     --color1: turquoise;
+    --color2: aquamarine ;
  }
  
  
  
  body {
-    background-image: url("/images/6.jpg");
+    background-image: url("/Tribute Page/images/6.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: fixed;
@@ -47,7 +48,7 @@
 }
 
 .banner  {
-    background-image: url("/images/8.jpg");
+    background-image: url("/Tribute Page/images/8.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 50px;
@@ -100,3 +101,47 @@ span {
 
     font-weight: bold;
 }
+
+.buttons-3 {
+    float: right;
+}
+
+/*PERSONAL LIFE PAGE*/
+
+.personal {
+    background-color: var(--color1);
+    opacity: 0.7;
+    width: fit-content;
+    padding: 20px;
+    margin: auto;
+}
+
+.personal-life  {
+    background-color: white;
+    opacity: 0.9;
+}
+
+
+.music {
+    background-color: var(--color1);
+    opacity: 0.8;
+    width: fit-content;
+    padding: 20px;
+    margin: auto;
+
+}
+
+.close {
+
+    background-color: var(--color1);
+
+}
+
+.close:hover {
+
+    opacity: 0.7;
+    background-color: var(--color2) ;
+    color: white;
+    padding: 10px;
+}
+
