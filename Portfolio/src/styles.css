@@ -55,6 +55,12 @@ button:hover {
 
 }
 
+.button-4 {
+    color: white;
+    text-decoration: none;
+
+}
+
 .button-1:hover {
     background-color: var(--color1) ;
     color: var(--color2);
